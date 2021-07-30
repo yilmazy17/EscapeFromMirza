@@ -2,9 +2,12 @@ C:\Users\yemre\Desktop\C#\Labyrinth\bin\Debug\Labyrinth.exe.config
 C:\Users\yemre\Desktop\C#\Labyrinth\bin\Debug\Labyrinth.exe
 C:\Users\yemre\Desktop\C#\Labyrinth\bin\Debug\Labyrinth.pdb
 C:\Users\yemre\Desktop\C#\Labyrinth\obj\Debug\Labyrinth.csproj.AssemblyReference.cache
-C:\Users\yemre\Desktop\C#\Labyrinth\obj\Debug\Labyrinth.Labyrinth.resources
 C:\Users\yemre\Desktop\C#\Labyrinth\obj\Debug\Labyrinth.Properties.Resources.resources
 C:\Users\yemre\Desktop\C#\Labyrinth\obj\Debug\Labyrinth.csproj.GenerateResource.cache
 C:\Users\yemre\Desktop\C#\Labyrinth\obj\Debug\Labyrinth.csproj.CoreCompileInputs.cache
 C:\Users\yemre\Desktop\C#\Labyrinth\obj\Debug\Labyrinth.exe
 C:\Users\yemre\Desktop\C#\Labyrinth\obj\Debug\Labyrinth.pdb
+C:\Users\yemre\Desktop\C#\Labyrinth\obj\Debug\Labyrinth.Labyrinth.resources
+C:\Users\yemre\Desktop\C#\Labyrinth\bin\Debug\tr-TR\Labyrinth.resources.dll
+C:\Users\yemre\Desktop\C#\Labyrinth\obj\Debug\Labyrinth.Labyrinth.tr-TR.resources
+C:\Users\yemre\Desktop\C#\Labyrinth\obj\Debug\tr-TR\Labyrinth.resources.dll
