@@ -58,11 +58,56 @@ namespace Labyrinth
                 
                 loc locat = new loc{x = xLoc, y = yLoc , sizes = a};
                 locs.Add(locat);
-
-
+            }
+            foreach (loc pos in locs)
+            {
+                if (label3.Location.X > pos.x &&  (pos.x + pos.sizes) > label3.Location.X && label3.Location.Y > pos.y && (pos.y + pos.sizes) > label3.Location.Y)
+                {
+                    timer1.Enabled = false;
+                    MessageBox.Show("Your point is : " + label2.Text + "s.");
+                    time = 0;
+                    Refresh();
+                    button1.Show();
+                    locs.Clear();
+                    label3.Hide();
+                    break;
+                }
+                else if (label3.Location.X+15 > pos.x && (pos.x + pos.sizes) > label3.Location.X+15 && label3.Location.Y > pos.y && (pos.y + pos.sizes) > label3.Location.Y)
+                {
+                    timer1.Enabled = false;
+                    MessageBox.Show("Your point is : " + label2.Text + "s.");
+                    time = 0;
+                    Refresh();
+                    button1.Show();
+                    locs.Clear();
+                    label3.Hide();
+                    break;
+                }
+                else if (label3.Location.X + 15 > pos.x && (pos.x + pos.sizes) > label3.Location.X + 15 && label3.Location.Y + 15> pos.y && (pos.y + pos.sizes) > label3.Location.Y + 15)
+                {
+                    timer1.Enabled = false;
+                    MessageBox.Show("Your point is : " + label2.Text + "s.");
+                    time = 0;
+                    Refresh();
+                    button1.Show();
+                    locs.Clear();
+                    label3.Hide();
+                    break;
+                }
+                else if (label3.Location.X  > pos.x && (pos.x + pos.sizes) > label3.Location.X  && label3.Location.Y + 15 > pos.y && (pos.y + pos.sizes) > label3.Location.Y + 15)
+                {
+                    timer1.Enabled = false;
+                    MessageBox.Show("Your point is : " + label2.Text + "s.");
+                    time = 0;
+                    Refresh();
+                    button1.Show();
+                    locs.Clear();
+                    label3.Hide();
+                    break;
+                }
 
             }
-            
+
         }
 
 
@@ -73,10 +118,6 @@ namespace Labyrinth
             label3.Show();
         }
 
-        private void end_situations()
-        {
-
-        }
 
         private void Labyrinth_Load(object sender, EventArgs e)
         {
@@ -118,21 +159,7 @@ namespace Labyrinth
             {
                 label3.Location = new Point(label3.Location.X, 80 + (( label3.Location.Y - Height)));
             }
-            foreach (loc pos in locs)
-            {
-                if (label3.Location.X > pos.x && (pos.x + pos.sizes) > label3.Location.X && label3.Location.Y > pos.y && (pos.y + pos.sizes) > label3.Location.Y)
-                {
-                    timer1.Enabled = false;
-                    MessageBox.Show("Your point is : " + label2.Text + "s.");
-                    time = 0;
-                    Refresh();
-                    button1.Show();
-                    locs.Clear();
-                    label3.Hide();
-                    break;
-                }
-
-            }
+            
         }
 
     }
